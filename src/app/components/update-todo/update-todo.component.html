@@ -1,10 +1,10 @@
 <div>
   <div style="display: flex; justify-content: space-between; padding: 20px 0px 20px;">
-    <h1>Add Todo</h1>
+    <h1>Update Todo</h1>
   </div>
   <form class="form" (ngSubmit)="onSubmit()">
-    <input type="text" name="title" [(ngModel)]="title" placeholder="Add Todo...">
-    <input type="text" name="user_id" [(ngModel)]="user_id" placeholder="User Id">
+    <input type="text" name="title" [(ngModel)]="todo.title">
+    <input type="text" name="user_id" [(ngModel)]="todo.user_id">
     <input type="submit" value="Submit" class="btn">
   </form>
 </div>

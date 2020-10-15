@@ -2,4 +2,5 @@
   <input (change)="onToggle(todo)" type="checkbox" />
   <p>{{ todo.title }}</p>
   <button (click)="onDelete(todo)" class="del">X</button>
+  <button (click)="onEdit(todo.id)" class="edit">Edit</button>
 </div>

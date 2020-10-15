@@ -8,6 +8,16 @@
   float: right;
 }
 
+.edit {
+  background: #333333;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
 .todo {
   background: #f4f4f4;
   padding: 10px;
